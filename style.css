@@ -1,0 +1,50 @@
+body {
+    background-image: url("https://wc.wallpaperuse.com/wallp/11-111203_s.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+#painel {
+    justify-content: center;
+    width: 90vh;
+    height: 450px;
+    border: 5px inset rgb(38, 51, 231);
+    color: white;
+    text-align: center;
+    font-size: 2em;
+
+    background: linear-gradient(to left, rgb(19, 124, 209), #5a08dd);
+    border-radius: 10px;
+    box-shadow:  15px 15px 15px black;
+    backdrop-filter: blur(5px);
+}
+
+#resposta {
+    text-shadow:  2px 2px 2px black;
+    color: white;
+    border: 5px inset rgb(10, 97, 138);
+    box-shadow: 5px 5px 15px 5px rgb(8, 22, 221);
+    border-radius: 10px; 
+}
+
+.row {
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: cornsilk;
+}
+
+button {
+    font-size: large;
+}
+
+input {
+    font-size: large;
+    height: 4vw;
+}
+
+#container {
+    margin-top: 10%;
+}
