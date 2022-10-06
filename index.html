@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>api dinheiro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="inicializa()">
+
+   <header class="row bg-info"><h1>Conversor de Moedas</h1></header> 
+
+   <!--Inicio-->
+
+   <div id="container" class="row container-fluid justify-content-center ">
+    <div id="painel" class="col-md-8" >
+
+      <h1>Cotaçãon de Moeda</h1>
+      <label id="label-label">Valores em <i id="moeda"></i></label>
+      <br>
+      <input type="number" id="inputValor" size="5">
+      <button id="botao" onclick="abreURL()">Em Reais</button>
+      <button id="botao2" onclick="inverte()">Em Dolar</button> 
+      <p id="resposta">resposta</p> 
+    </div>
+   </div>
+    <script src="api.js"></script>
+</body>
+</html>
